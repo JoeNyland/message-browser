@@ -1,0 +1,28 @@
+{
+  "name": "message-viewer-app",
+  "description": "App for viewing messages. Built with React, Express and SQLite.",
+  "browserslist": [
+    "last 7 versions",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "proxy": "http://localhost:3001",
+  "scripts": {
+    "server": "PORT=3001 nodemon --watch server server/server.js",
+    "frontend": "PORT=3000 react-scripts start"
+  },
+  "dependencies": {
+    "better-sqlite3": "^7.1.2",
+    "body-parser": "1.19.0",
+    "cors": "2.8.5",
+    "express": "4.17.1"
+  },
+  "devDependencies": {
+    "axios": "^0.21.1",
+    "nodemon": "2.0.3",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-scripts": "^4.0.3"
+  }
+}
